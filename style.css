@@ -1,0 +1,66 @@
+body {
+	font-family: inter;
+	margin: 0;
+	padding: 0;
+	background-color: hsl(0, 0%, 8%);
+	color: hsl(0, 0%, 100%);
+	padding: 0px 5% 0px 5%;
+}
+
+header {
+	width: 100%;
+	height: max-content;
+	color: white;
+	display: flex;
+	justify-content: space-around;
+	padding: 15px 0px 0px 0px;
+}
+
+.bio {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+	justify-content: flex-start;
+	/* width: 70%; */
+	max-width: 400px;
+}
+
+
+/* 
+
+.headline {
+	font-family: prata;
+	font-weight: 100;
+	font-size: 39px;
+	margin-bottom: 5px;
+
+}
+
+/* .content {} */
+
+.imagelist {
+	display: flex;
+	justify-content: space-between;
+	width: 100vh;
+	height: 20px;
+	display: flex;
+	padding: 40px 0px 40px 0px;
+}
+
+
+.button{
+	width: 40;
+	height: 40px;
+	background-color: gold;
+	color: black;
+	text-decoration-line: none;
+}
+
+
+footer{
+	display: flex;
+	color: white;
+	background-color: rgb(72, 71, 71);
+	justify-content: space-between;
+
+}
